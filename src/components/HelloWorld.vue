@@ -51,10 +51,7 @@ export default {
     },
   checkColor(num){
     let color = 'black'
-    if(!num){
-      return color;
-    }
-
+    
     if(num<=0){
       color = 'blue'
     }
